@@ -1,0 +1,17 @@
+{
+  "uuid": "36bf5430-0216-4bc4-8658-4a3a5395541a",
+  "shortName": "TaskList",
+  "longName": "TaskList",
+  "companyName": "JoanMiquelPayerasCrespi",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
