@@ -5,19 +5,13 @@ static Window *window;
 static TextLayer *text_layer_title;
 static TextLayer *text_layer_commands;
 static ScrollLayer *layer_list;
-static const char *llista = "Unes peres\r\n" \
-	"Un suc\r\n" \
-	"Unes taronges\r\n" \
-	"Un suc dos\r\n" \
-	"Un suc\r\n" \
-	"Unes taronges\r\n" \
-	"Un suc dos\r\n" \
-	"Un suc\r\n" \
-	"Unes taronges\r\n" \
-	"Un suc dos\r\n" \
-	"Un suc\r\n" \
-	"Unes taronges\r\n" \
-	"Un suc dos\r\n" \
+static const char *llista = "" \
+	"Paté, " \
+	"Formatge, " \
+	"Embutits, " \
+	"Olives, " \
+	"Natilles, " \
+	"Iogurs amb sabors" \
 	"";
 
 static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
